@@ -1,3 +1,8 @@
+variable "zulu" {
+  description = "Test"
+  type        = string
+}
+
 variable "length" {
   description = "Length of the random string"
   type        = number
@@ -15,6 +20,11 @@ variable "charlie" {
 }
 
 variable "bravo" {
+  description = "Test"
+  type        = string
+}
+
+variable "aalpha" {
   description = "Test"
   type        = string
 }
